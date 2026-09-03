@@ -5,7 +5,7 @@
 // }
 
 // let balance = 1000;
-// let withdrawalAmount = 500;
+// let withdrawalAmount = 400;
 
 // if (withdrawalAmount > balance  ) {
 //     console.log("Insufficient funds");
@@ -13,10 +13,12 @@
 
 //     else if (balance > withdrawalAmount){
 //         let remainingBalance = calculateBalance(balance, withdrawalAmount);
+
 //         console.log("Total amount : " + balance);
 //         console.log("Withdrawal amount: " + withdrawalAmount);
 //         console.log("Remaining balance: " + remainingBalance);
 //     }
+
 
 
 
@@ -78,6 +80,8 @@
 
 
 
+
+
 // Question 3 
 
 // function loginSystem(userName, password) {
@@ -108,11 +112,14 @@
 
 
 
+
+
 // Question 4 
 
 // function mobileRecharge(mobileNumber, rechargeAmount, rechargeType){
 
 //     let xyz = "";
+
 //     if(rechargeAmount === 399){
 //         xyz = "Standard plan";
 //     }
@@ -136,5 +143,64 @@
 
 
 
+
+
+
+// Question 5function deliverySystem(foodItem, pizza, quantity, deliveryLocation){
+    
+//     let discount = 0;
+//     let deliveryCharges = 0;
+
+//     if(quantity === 0){
+//         console.log("Enter valid quantity");
+//     }
+
+//     if (quantity >= 5){
+//         deliveryCharges = 0;
+//     }
+//     else{
+//         deliveryCharges = 50;
+//     }
+
+//     let amount = pizza * quantity;
+
+//     if(amount >= 500){
+//         discount = 50;
+//     }
+//     else{
+//         discount = 0;
+//     }
+
+//     let finalAmount = amount - discount - deliveryCharges;
+
+//     return {
+//         discount: discount,
+//         deliveryCharges: deliveryCharges,
+//         finalAmount: finalAmount
+//     }
+// }
+
+// let foodItem = "pizza";
+// let pizza = 200;
+// let quantity = 5;
+// let deliveryLocation = "dharamshala";
+
+// let x = deliverySystem(foodItem, pizza, quantity, deliveryLocation);
+
+// if(quantity > 0){
+//     console.log("Food item: " + foodItem);
+//     console.log("Food item cost: " + pizza);
+//     console.log("Quantity: " + quantity);
+//     console.log("Delivery location " + deliveryLocation);
+//     console.log("delivery charges: " + x.deliveryCharges);
+//     console.log("Additional discount: " + x.discount);
+//     console.log("Final amount to pay: " + x.finalAmount);
+// }
+
+
+
+
+
+// Question 6
 
 
